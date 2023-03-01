@@ -17,12 +17,12 @@ color_generator(labels, preset_col = "1", levels_colors = NULL, visualize = F)
 }
 \value{
 \itemize{
-\item colors A vector of colors for each value in \code{labels}
-\item levels_colors A vector of unique colors for each level of \code{labels}
+\item \code{colors} A vector of colors for each value in \code{labels}
+\item \code{levels_colors} A vector of unique colors for each level of \code{labels}
 }
 }
 \description{
-This function allows you to generate colors starting from a vector of labels
+This function allows you to generate colors starting from a vector of labels.
 }
 \examples{
 data(iris)

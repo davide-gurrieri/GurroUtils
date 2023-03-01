@@ -1,15 +1,15 @@
 
 #' Generate colors from labels
 #'
-#' This function allows you to generate colors starting from a vector of labels
+#' This function allows you to generate colors starting from a vector of labels.
 #' @param labels A vector of labels convertible to a factor
 #' @param preset_col There are 6 default color palettes
 #' @param levels_colors An optional vector of colors, one for each level of `labels`
 #' @param visualize Show or not a pie chart of the output colors
 #'
 #' @returns
-#' * colors A vector of colors for each value in `labels`
-#' * levels_colors A vector of unique colors for each level of `labels`
+#' * `colors` A vector of colors for each value in `labels`
+#' * `levels_colors` A vector of unique colors for each level of `labels`
 #' @export
 #'
 #' @examples
