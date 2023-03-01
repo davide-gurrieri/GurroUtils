@@ -8,8 +8,8 @@
 #' @param visualize Show or not a pie chart of the output colors
 #'
 #' @returns
-#' * `colors` A vector of colors for each value in `labels`
-#' * `levels_colors` A vector of unique colors for each level of `labels`
+#' * `colors`: A vector of colors for each value in `labels`
+#' * `levels_colors`: A vector of unique colors for each level of `labels`
 #' @export
 #'
 #' @examples
